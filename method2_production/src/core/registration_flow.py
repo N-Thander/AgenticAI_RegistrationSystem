@@ -7,6 +7,7 @@ from config.settings import settings
 from services.supabase_service import SupabaseManager
 from models.schemas import RegistrationCreate, ErrorResponse
 from utils.helpers import format_phone, validate_events_list, mask_email
+import json
 
 logger = logging.getLogger(__name__)
 
